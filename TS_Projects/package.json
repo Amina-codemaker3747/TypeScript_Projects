@@ -1,0 +1,24 @@
+{
+  "name": "aminanoor3583_my-projects",
+  "version": "4.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "aminanoor3583-ts_projects": "projects.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aminanoor3583-ts_projects": "^1.0.0",
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.7"
+  }
+}
