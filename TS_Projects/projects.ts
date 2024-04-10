@@ -16,7 +16,7 @@ const mainMenu = async () => {
         type: 'list',
         name: 'choose',
         message: 'Select a game to play:',
-        choices: ['Adventure Game','ATM' , 'TODO List', 'CountDown Timer', 'Word Counter', 'Stuent Management System', 'Quit']
+        choices: ['Adventure Game','ATM' , 'TODO List', 'CountDown Timer', 'Word Counter', 'Student Management System', 'Quit']
     });
 
    
