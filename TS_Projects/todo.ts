@@ -12,7 +12,7 @@ while(loop) {
         TODO: string,
         addMore: boolean,
     } = await inquirer.prompt([{
-        type: "confirm",
+        type: "input",
         name: "TODO",
         message: "Please Enter Your TODO",
     },
