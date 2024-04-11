@@ -5,7 +5,7 @@ let loop = true;
 const TODOS = async () => {
     while (loop) {
         const answers = await inquirer.prompt([{
-                type: "confirm",
+                type: "input",
                 name: "TODO",
                 message: "Please Enter Your TODO",
             },
